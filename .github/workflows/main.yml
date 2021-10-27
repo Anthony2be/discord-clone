@@ -37,6 +37,8 @@ jobs:
       - run: git config --global user.email "adubovitsky1234@gmail.com"
 
       - run: git config --global user.name "anthony2be"
+      
+      - run: gh auth login --with-token ${{TOKEN}}
         
       - name: Deploy
         run: npm run deploy
