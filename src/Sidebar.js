@@ -1,5 +1,4 @@
 import './index.css'
-import { FaFire } from 'react-icons/fa'
 
 const SideBar = (props) => {
     //<SideBarIcon icon={<FaFire size='28'/>}/>
