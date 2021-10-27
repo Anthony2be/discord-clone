@@ -37,5 +37,8 @@ jobs:
       - name: Predeploy
         run: npm run predeploy
         
+      - run: git config --global user.email "adubovitsky1234@gmail.com"
+      - run: git config --global user.name "Anthony2be"
+        
       - name: Deploy
         run: npm run deploy
